@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Section"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "display_type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sort_order": {
+      "type": "integer"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "creation_date": {
+      "type": "datetime"
+    },
+    "modification_date": {
+      "type": "datetime"
+    },
+    "external_link": {
+      "type": "string"
+    },
+    "chi_title": {
+      "type": "string"
+    },
+    "chi_description": {
+      "type": "richtext"
+    },
+    "button_position": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    },
+    "section_type": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_keyword": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "access_to": {
+      "type": "string"
+    },
+    "top_section_id": {
+      "type": "integer"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "internal_link": {
+      "type": "string"
+    },
+    "show_in_nav": {
+      "type": "boolean"
+    },
+    "groups": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "routes": {
+      "type": "string"
+    }
+  }
+}

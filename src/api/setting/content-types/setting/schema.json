@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting"
+  },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "description": { "type": "text" },
+    "key_text": { "type": "string" },
+    "value": { "type": "text" },
+    "creation_date": { "type": "datetime" },
+    "modification_date": { "type": "datetime" },
+    "group_name": { "type": "string" },
+    "value_type": { "type": "string" },
+    "show_to_user": { "type": "boolean" },
+    "chi_value": { "type": "text" },
+    "used_for_admin": { "type": "boolean" },
+    "used_for_www": { "type": "boolean" },
+    "published": { "type": "boolean" }
+  }
+}

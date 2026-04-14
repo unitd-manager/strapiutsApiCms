@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Category"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_id": {
+      "type": "integer"
+    },
+    "category_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sort_order": {
+      "type": "integer"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "creation_date": {
+      "type": "datetime"
+    },
+    "modification_date": {
+      "type": "datetime"
+    },
+    "chi_title": {
+      "type": "string"
+    },
+    "chi_description": {
+      "type": "richtext"
+    },
+    "display_type": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    },
+    "category_type": {
+      "type": "string"
+    },
+    "show_navigation_panel": {
+      "type": "boolean"
+    },
+    "external_link": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_keyword": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "category_filter": {
+      "type": "string"
+    },
+    "description_short": {
+      "type": "text"
+    },
+    "member_only": {
+      "type": "boolean"
+    },
+    "internal_link": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "show_in_nav": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategories",
+  "info": {
+    "singularName": "subcategory",
+    "pluralName": "subcategories",
+    "displayName": "Sub Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sub_category_id": {
+      "type": "integer"
+    },
+    "sub_category_title": {
+      "type": "string"
+    },
+    "chi_title": {
+      "type": "string"
+    },
+    "sort_order": {
+      "type": "integer"
+    },
+    "display_type": {
+      "type": "string"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "show_navigation_panel": {
+      "type": "boolean"
+    },
+    "external_link": {
+      "type": "string"
+    },
+    "sub_category_type": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    },
+    "creation_date": {
+      "type": "datetime"
+    },
+    "modification_date": {
+      "type": "datetime"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_keyword": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "internal_link": {
+      "type": "string"
+    },
+    "show_in_nav": {
+      "type": "boolean"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category"
+    }
+  }
+}

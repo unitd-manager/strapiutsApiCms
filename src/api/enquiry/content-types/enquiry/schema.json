@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "singularName": "enquiry",
+    "pluralName": "enquiries",
+    "displayName": "Enquiry"
+  },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "email": { "type": "email" },
+    "company": { "type": "string" },
+    "comments": { "type": "richtext" },
+    "country": { "type": "string" },
+    "enquiry_type": { "type": "string" },
+    "subject": { "type": "string" },
+    "creation_date": { "type": "datetime" },
+    "first_name": { "type": "string" },
+    "last_name": { "type": "string" },
+    "address_country": { "type": "string" },
+    "fax": { "type": "string" },
+    "notes": { "type": "richtext" },
+    "modification_date": { "type": "datetime" },
+    "status": { "type": "string" },
+    "follow_up_date": { "type": "date" },
+    "flag": { "type": "boolean" },
+    "phone": { "type": "string" },
+    "preferred_contact": { "type": "string" },
+    "preferred_time": { "type": "string" },
+    "phone_area_code": { "type": "string" },
+    "staff_id": { "type": "integer" },
+    "client_type": { "type": "string" },
+    "product": { "type": "string" },
+    "service": { "type": "string" },
+    "name": { "type": "string" }
+  }
+}
