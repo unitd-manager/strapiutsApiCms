@@ -12,6 +12,7 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
         database: env('DATABASE_NAME', 'unitedweb'),
         user: env('DATABASE_USERNAME', 'root'),
         password: env('DATABASE_PASSWORD', ''),
+        charset: env('DATABASE_CHARSET', 'utf8'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),

@@ -10,7 +10,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "sub_category_id": {
+    "category_id": {
       "type": "integer"
     },
     "sub_category_title": {
@@ -67,7 +67,8 @@
     "category": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::category.category"
+      "target": "api::category.category",
+      "inversedBy": "subcategories"
     }
   }
 }
